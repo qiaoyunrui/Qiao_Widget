@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
         new GuillotineAnimtor.Builder()
-            .setActionbar(toolbar)
+                .setActionbar(toolbar)
                 .setCloseButton(closeButton)
                 .setOpenButton(openButton)
                 .setGuillotineView(guillotineView)
