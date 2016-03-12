@@ -204,7 +204,7 @@ public class GuillotineAnimtor {
     /**
      * 播放开启动画
      */
-    private void open() {
+    public void open() {
         if (!isOpening) {
             mOpeningAnimation.start();
         }
@@ -213,7 +213,7 @@ public class GuillotineAnimtor {
     /**
      * 播放关闭动画
      */
-    private void close() {
+    public void close() {
         if (!isClosing) {
             mClosingAnimation.start();
         }
